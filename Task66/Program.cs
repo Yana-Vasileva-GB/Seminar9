@@ -13,6 +13,6 @@ int SumNumbers(int M, int N)
 {
     if (M == N)
         return M;
-    return M+SumNumbers(M+1, N);
+    return M + SumNumbers(M + 1, N);
 }
 Console.WriteLine($"Сумма натуральных чисел в промежутке от {M} до {N} составляет: {SumNumbers(M, N)}");
